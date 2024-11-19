@@ -1,0 +1,107 @@
+endpoints
+
+create user:
+http://localhost:8000/profiles/api/users/create/
+
+get specific user:
+http://localhost:8000/profiles/api/users/c774a172-bb07-4740-bbc2-42854aaf7fd3/
+
+get all user:
+http://localhost:8000/profiles/api/users/
+
+update user:
+http://localhost:8000/profiles/api/users/c774a172-bb07-4740-bbc2-42854aaf7fd3/update/
+
+delete user:
+http://localhost:8000/profiles/api/users/f008b0e5-ba2d-49bb-9f75-dcbd8e5141ea/delete/
+
+create token:
+http://localhost:8000/profiles/api/token/
+
+refresh token:
+http://localhost:8000/profiles/api/token/refresh/
+
+follow unfollow user:
+http://localhost:8000/profiles/api/users/24a7504c-a4ff-4233-94c0-d3d555b44e44/toggle_follow/
+
+
+
+
+
+create post:
+http://localhost:8000/posts/api/posts/create/
+
+update post:
+http://localhost:8000/posts/api/posts/4/update/
+
+delete post:
+http://localhost:8000/posts/api/posts/5/delete/
+
+save post:
+http://localhost:8000/posts/api/posts/5/save/
+
+get specific saved post:
+http://localhost:8000/posts/api/posts/saved/4/
+
+get all saved post:
+http://localhost:8000/posts/api/posts/saved/
+
+get single post:
+http://localhost:8000/posts/api/posts/2/
+
+get posts list:
+http://localhost:8000/posts/api/posts/
+
+like unlike post:
+http://localhost:8000/posts/api/posts/2/like/
+
+
+
+create thread:
+http://localhost:8000/threads/api/threads/create/
+
+update thread:
+http://localhost:8000/threads/api/threads/f328ed1e-f5b0-412e-a140-402b3255039e/update/
+
+delete thread:
+http://localhost:8000/threads/api/threads/1b9034a3-e2bf-4eab-8b8e-2b513cd06e96/delete/
+
+get single thread:
+http://localhost:8000/threads/api/threads/f328ed1e-f5b0-412e-a140-402b3255039e
+
+get all thread:
+http://localhost:8000/threads/api/threads/
+
+like unlike thread:
+http://localhost:8000/threads/api/threads/f328ed1e-f5b0-412e-a140-402b3255039e/like/
+
+repost thread:
+http://localhost:8000/threads/api/threads/f328ed1e-f5b0-412e-a140-402b3255039e/repost/
+
+
+
+
+
+
+create post comment:
+http://localhost:8000/comments/api/posts/cbb945ef-8cb8-42b8-9008-9a787467da09/comments/
+
+create thread comment:
+http://localhost:8000/comments/api/threads/eda1163d-c7ae-4a2a-b537-143b47dd0dc8/comments/
+
+fetch post comments:
+http://localhost:8000/comments/api/posts/cbb945ef-8cb8-42b8-9008-9a787467da09/comments/list/
+
+fetch thread comments:
+http://localhost:8000/comments/api/threads/eda1163d-c7ae-4a2a-b537-143b47dd0dc8/comments/list/
+
+delete comment/ reply:
+http://localhost:8000/comments/api/comments/8/delete/
+
+create replies:
+http://localhost:8000/comments/api/posts/6/comments/1/
+
+fetch replies:
+http://localhost:8000/comments/api/comments/1/replies/list/
+
+
