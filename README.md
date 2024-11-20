@@ -67,3 +67,30 @@ A social media clone inspired by Instagram, built using **Next.js** for the fron
    ```
 
    Your app should be running at http://localhost:3000.
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+   ```
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Setup the database:
+   ```bash
+   python manage.py migrate
+   ```
+5. Run the backend server:
+   ```bash
+   python manage.py runserver
+   ```
+
+This social media clone project provides a comprehensive set of features similar to popular platforms, allowing users to interact through feeds, threads, stories, and profiles. Built using Next.js, Django, and PostgreSQL, the application demonstrates a full-stack approach to creating an interactive social platform. While the project covers essential social media functionalities, there are still opportunities for further enhancements, such as supporting images in threads or improving the UI/UX.
+
