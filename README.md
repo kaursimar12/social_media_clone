@@ -59,9 +59,11 @@ A social media clone inspired by Instagram, built using **Next.js** for the fron
    cd <project-folder>```
 2. Install dependencies:
    ```bash
-   npm install ```
+   npm install
+   ```
 3. Run the development server:
    ```bash
-   npm run dev```
+   npm run dev
+   ```
 
    Your app should be running at http://localhost:3000.
