@@ -38,7 +38,7 @@ A social media clone inspired by Instagram, built using **Next.js** for the fron
 
 ## Tech Stack
 
-- **Frontend**: Next.js, React
+- **Frontend**: Next.js
 - **Backend**: Django
 - **Database**: PostgreSQL
 - **Authentication**: Django REST Framework, JWT
